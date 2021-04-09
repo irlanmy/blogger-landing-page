@@ -27,9 +27,14 @@ nav {
 }
 
 .logo {
-  width: 20px;
-  height: 20px;
+  display: flex;
+  align-items: center;
   cursor: pointer;
+}
+
+img {
+  width: 90px;
+  height: 35px;
 }
 
 .link {
@@ -41,7 +46,6 @@ nav {
 
 /* Latihan Navbar Dropdown */
 .dropdown {
-  /* position: relative; */
   font-size: 12px;
 }
 
@@ -67,35 +71,21 @@ nav {
 .drop-ctn-1,
 .drop-ctn-2,
 .drop-ctn-3 {
-  transform: translate(20px, 15px);
+  transform: translate(10px, 15px);
   line-height: 25px;
   width: 100px;
   box-sizing: border-box;
 }
 
 /* Dropdown Link 1 Product */
-.drop-ctn-1 li a {
-  color: hsl(207, 13%, 34%);
-}
-
-.drop-ctn-1 li a:hover {
-  color: hsl(240, 10%, 16%);
-}
-
-/* Dropdown Link 2 Company */
-.drop-ctn-2 li a {
-  color: hsl(207, 13%, 34%);
-}
-
-.drop-ctn-2 li a:hover {
-  color: hsl(240, 10%, 16%);
-}
-
-/* Dropdown Link 3 Contact */
+.drop-ctn-1 li a,
+.drop-ctn-2 li a,
 .drop-ctn-3 li a {
   color: hsl(207, 13%, 34%);
 }
 
+.drop-ctn-1 li a:hover,
+.drop-ctn-2 li a:hover,
 .drop-ctn-3 li a:hover {
   color: hsl(240, 10%, 16%);
 }
