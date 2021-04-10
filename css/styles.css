@@ -13,6 +13,7 @@ body {
 header {
   background-color: hsl(353, 100%, 62%);
   font-family: "Overpass";
+  border-bottom-left-radius: 85px;
 }
 
 a {
@@ -141,6 +142,8 @@ button {
   align-items: center;
   flex-direction: column;
   height: 380px;
+  border-bottom-left-radius: 85px;
+  /* background-color: hsl(240, 10%, 16%); */
 }
 
 .title-cover {
