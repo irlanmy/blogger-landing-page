@@ -1,3 +1,4 @@
 - Dropdown Navbar masih ketimpa sama h1
 - Dropdown Navbar Company kerasa kurang lurus
 - Tambahkan background header
+- Menyesuaikan ukuran dengan file design asli
