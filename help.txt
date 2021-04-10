@@ -2,3 +2,4 @@
 - Dropdown Navbar Company kerasa kurang lurus
 - Tambahkan background header
 - Menyesuaikan ukuran dengan file design asli
+- Hidden left scroll dalam class content
